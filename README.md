@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="URL_DE_VOTRE_LOGO_ICI" width="200" alt="Vibe Godot Logo">
+  <img src="https://raw.githubusercontent.com/AureClai/vibe-godot/refs/heads/main/img/logo.png" width="200" alt="Vibe Godot Logo">
 </p>
 
 <h1 align="center">Vibe Godot ✨</h1>
