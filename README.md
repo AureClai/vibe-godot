@@ -29,7 +29,7 @@
 
 ## 🚀 Installation
 
-1.  **Download:** Go to the [Releases page](https://github.com/your-username/your-repo/releases) of your repository and download the latest `vibe-godot.zip` file.
+1.  **Download:** Go to the [Releases page](https://github.com/AureClai/vibe-godot/releases) of your repository and download the latest `vibe-godot.zip` file.
 2.  **Extract:** Unzip the file. It will contain an `addons` folder.
 3.  **Copy:** Copy the `addons` folder into the root of your Godot project. Your project structure should look like `res://addons/vibe_godot/`.
 4.  **Configure Autoload (Étape Cruciale !):**
@@ -79,4 +79,4 @@ This plugin is distributed under the MIT License. See `LICENSE` for more informa
 
 ## ❤️ Contributing
 
-Found a bug or have a feature request? Feel free to open an issue on the [GitHub repository Issues page](https://github.com/your-username/your-repo/issues).
+Found a bug or have a feature request? Feel free to open an issue on the [GitHub repository Issues page](https://github.com/AureClai/vibe_godot/issues).
