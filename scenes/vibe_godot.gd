@@ -1,12 +1,12 @@
 @tool
 extends EditorPlugin
 
-const SettingsDialog = preload("res://addons/vibe_godot/settings_dialog.tscn")
+const SettingsDialog = preload("res://addons/vibe-godot/scenes/settings_dialog.tscn")
 # Le chemin vers notre propre fichier de configuration
 const SETTINGS_FILE = "res://addons/vibe_godot/settings.cfg"
 var settings_dialog_instance
 
-const CodeGenDockScene = preload("res://addons/vibe_godot/vibe_godot_dock.tscn")
+const CodeGenDockScene = preload("res://addons/vibe-godot/scenes/vibe_godot_dock.tscn")
 
 var dock_instance
 
