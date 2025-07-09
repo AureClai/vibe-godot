@@ -5,7 +5,7 @@
 <h1 align="center">Vibe Godot ✨</h1>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg"/>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg"/>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg"/>
   <img alt="Godot Version" src="https://img.shields.io/badge/Godot-4.2%2B-%23478cbf"/>
 </p>
@@ -18,33 +18,33 @@
 
 ---
 
-### ## 🎯 Features
+## 🎯 Features
 
-* **Generate GDScript:** Describe a function, get the code.
-* **Refactor Existing Code:** Ask for modifications to your scripts using the `@script.gd` syntax.
-* **Integrated UI:** A simple dock UI to interact with the AI.
-* **Custom Settings:** Configure your API key and model choice via a dedicated project menu.
+- **Generate GDScript:** Describe a function, get the code.
+- **Refactor Existing Code:** Ask for modifications to your scripts using the `@script.gd` syntax.
+- **Integrated UI:** A simple dock UI to interact with the AI.
+- **Custom Settings:** Configure your API key and model choice via a dedicated project menu.
 
 ---
 
-### ## 🚀 Installation
+## 🚀 Installation
 
 1.  **Download:** Go to the [Releases page](https://github.com/your-username/your-repo/releases) of your repository and download the latest `vibe-godot.zip` file.
 2.  **Extract:** Unzip the file. It will contain an `addons` folder.
 3.  **Copy:** Copy the `addons` folder into the root of your Godot project. Your project structure should look like `res://addons/vibe_godot/`.
 4.  **Configure Autoload (Étape Cruciale !):**
-	* In Godot, go to `Projet > Paramètres du projet...`.
-	* Go to the `Autoload` tab.
-	* For the `Chemin`, click the folder icon and select `res://addons/vibe_godot/api/GeminiAPI.gd`.
-	* In the `Nom du Nœud` field, type **`GeminiAPI`**.
-	* Click **"Ajouter"**.
+    - In Godot, go to `Projet > Paramètres du projet...`.
+    - Go to the `Autoload` tab.
+    - For the `Chemin`, click the folder icon and select `res://addons/vibe_godot/api/GeminiAPI.gd`.
+    - In the `Nom du Nœud` field, type **`GeminiAPI`**.
+    - Click **"Ajouter"**.
 5.  **Activate Plugin:**
-	* Go to the `Plugins` tab in the Project Settings.
-	* Find "Vibe Godot" and set its status to **Actif**.
+    - Go to the `Plugins` tab in the Project Settings.
+    - Find "Vibe Godot" and set its status to **Actif**.
 
 ---
 
-### ## ⚙️ Configuration
+## ⚙️ Configuration
 
 Before using the plugin, you **must** configure your Google Gemini API key.
 
@@ -55,22 +55,28 @@ Before using the plugin, you **must** configure your Google Gemini API key.
 
 ---
 
-### ## 🎮 How to Use
+## 🎮 How to Use
 
 Once activated, you will see a new "Vibe Godot" dock on the right side of the editor.
 
 #### Generate New Code
+
 Simply describe what you want.
+
 > **Prompt:** `une fonction qui fait sauter un CharacterBody2D avec la touche espace`
 
 #### Refactor a Script
+
 Use the `@` syntax to reference a script from your project. The script must be saved in your project filesystem (`res://...`).
+
 > **Prompt:** `refactorise ce script pour utiliser une state machine @player.gd`
 
 ---
 
-### ## 📄 License
+## 📄 License
+
 This plugin is distributed under the MIT License. See `LICENSE` for more information.
 
-### ## ❤️ Contributing
+## ❤️ Contributing
+
 Found a bug or have a feature request? Feel free to open an issue on the [GitHub repository Issues page](https://github.com/your-username/your-repo/issues).
