@@ -79,4 +79,4 @@ This plugin is distributed under the MIT License. See `LICENSE` for more informa
 
 ## ❤️ Contributing
 
-Found a bug or have a feature request? Feel free to open an issue on the [GitHub repository Issues page](https://github.com/AureClai/vibe_godot/issues).
+Found a bug or have a feature request? Feel free to open an issue on the [GitHub repository Issues page](https://github.com/AureClai/vibe-godot/issues).
